@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".OtherActivity"></activity>
+        <activity android:name=".ScrollViewActivity"></activity>
     </application>
 
 </manifest>

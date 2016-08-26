@@ -26,9 +26,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()) {
             case R.id.other_btn:
                 Intent intent1 = new Intent(MainActivity.this, OtherActivity.class);
-                startActivity(intent1);
+                MainActivity.this.startActivity(intent1);
                 break;
             case R.id.scroll_view_btn:
+                Intent intent2 = new Intent(MainActivity.this, ScrollViewActivity.class);
+                MainActivity.this.startActivity(intent2);
                 break;
             case R.id.web_view_btn:
                 break;
